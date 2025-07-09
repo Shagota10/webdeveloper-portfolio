@@ -9,29 +9,83 @@
 
 /* shared style */
 .text-primary {
-    color: orangered;
-
+    color: orangered
 }
 
 .dark-2 {
-    color: #3c3c3c;
+    color: #0d0d0d;
+}
+
+/*header*/
+.header {
+
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+.btn-primary {
+    background-color: orangered;
+    font-weight: bold;
+    color: bisque;
+    padding: 18px 35px;
+    border-radius: 5;
+    border-color: blue;
+    border: none;
+
 }
 
 /*nav*/
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
 }
 
 .nav-title {
-    font: weight 800px;
+    font-weight: 800px;
     font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
 }
 
 nav ul li {
     list-style: none;
+    margin-right: 50px;
 }
 
 nav li a {
     text-decoration: none;
     font-size: 20px;
+}
+
+/*banner styles*/
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+
+.banner-content {
+    width: 580px;
+}
+
+.banner greetings {
+    font-size: 45px;
+    font-weight: 600;
+
+
+}
+
+banner title {
+    font-size: bold;
+    font-weight: 85px
+}
+
+.baner-profile-picture {
+    width: 500px;
 }
